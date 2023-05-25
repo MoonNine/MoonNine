@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ajedrez</title>
+<link rel="stylesheet" href="emx_nav_right.css" type="text/css" />
+<script type="text/javascript">
+<!--
+var time = 3000;
+var numofitems = 7;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){ 
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;  
+	this.numberofmenuitems = allitems;
+	this.caller = document.getElementById(callname);
+	this.thediv = document.getElementById(divname);
+	this.thediv.style.visibility = startstate;
+}
+				 
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+	  var shutdiv =eval( "menuitem"+i+".thediv");
+    shutdiv.style.visibility="hidden";
+	}
+	theobj.thediv.style.visibility="visible";
+}
+				
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      var shutdiv =eval('menuitem'+i+'.thediv');
+			shutdiv.style.visibility='hidden';
+		}  
+	}
+}
+// -->
+</script>
+<style type="text/css">
+<!--
+body {
+	background-image: url(30372.png);
+}
+.Estilo1 {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.Estilo2 {
+	color: #FF0000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Estilo3 {color: #EC0006; font-family: Georgia, "Times New Roman", Times, serif; }
+.Estilo6 {
+	color: #000000;
+	font-weight: bold;
+	font-size: large;
+}
+.Estilo7 {font-size: large}
+.Estilo8 {color: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: large; }
+.Estilo9 {color: #000000}
+.Estilo10 {
+	font-weight: bold;
+	font-size: large;
+}
+.Estilo11 {color: #000000; font-size: large; }
+.Estilo12 {
+	color: #FF0000;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+-->
+</style></head>
+<body onmousemove="closesubnav(event);">
+<div class="skipLinks">skip to: <a href="#content">page content</a> | <a href="#pageNav">links on this page</a> | <a href="#globalNav">site navigation</a> | <a href="#siteInfo">footer (site information)</a> </div>
+<!-- end masthead -->
+<div id="pagecell1">
+  <!--pagecell1-->
+  <img alt="" src="tl_curve_white.gif" height="6" width="6" id="tl" /> <img alt="" src="tr_curve_white.gif" height="6" width="6" id="tr" />
+  <div id="breadCrumb"></div>
+  <div id="pageName">
+    <h2>EL AJEDREZ </h2>
+    </div>
+  <div id="pageNav">
+    <div class="relatedLinks">
+      <h3>Cobao 06: <a href="https://www.facebook.com/CobaoOficial">Cobao Oficial </a></h3>
+      </div>
+    <div id="advert"> <img src="v.png" alt="" width="139" height="133" /></div>
+  </div>
+  <div id="content">
+    <div class="feature">
+      <span class="Estilo2"><img src="Ajedrez-portada-ok.jpg" alt="" width="324" height="219" /></span>
+      <h3 class="Estilo3"><a href="https://es.wikipedia.org/wiki/Ajedrez" class="Estilo7">&iquest;Que es el ajedrez? </a></h3>
+      <p class="Estilo8">El ajedrez es un juego de tablero entre dos contrincantes en el que cada uno dispone al inicio de diecis&eacute;is piezas m&oacute;viles que se colocan sobre un tablero1&#8203; dividido en sesenta y cuatro casillas o escaques.&#8203; En su versi&oacute;n de competici&oacute;n, est&aacute; considerado como un deporte,&#8203; aunque en la actualidad tiene claramente una dimenci&oacute;n social, educativa&#8203; y terap&eacute;utica. Se juega sobre un tablero cuadriculado de 8&times;8 casillas (tambi&eacute;n llamadas escaques),&#8203; alternadas en colores blanco y negro, que constituyen las 64 posibles posiciones entre las que se mueven las piezas durante el desarrollo del juego. Al principio del juego cada jugador tiene diecis&eacute;is piezas: un rey, una dama, dos alfiles, dos caballos, dos torres y ocho peones. Se trata de un juego de estrategia en el que el objetivo es &laquo;derrocar&raquo; al rey del oponente. Esto se hace amenazando la casilla que ocupa el rey con alguna de las piezas propias sin que el otro jugador pueda proteger a su rey interponiendo una pieza entre su rey y la pieza que lo amenaza, mover su rey a un escaque libre o capturar a la pieza que lo est&aacute; amenazando, lo que trae como resultado el jaque mate y el fin de la partida.</p>
+    </div>
+    <div class="story">
+      <h3><a href="https://www.youtube.com/watch?v=odfAKtu6LBY&amp;ab_channel=Tom%C3%A1sSosa" class="Estilo7">El Ajedrez en la vida </a></h3>
+      <p class="Estilo6">Dicen que el ajedrez puede ser &uacute;til en muchas fases de la vida. Esa ser&aacute; una conclusi&oacute;n l&oacute;gica para aquellas personas que se dedican al deporte ciencia, pero la gente que no haya tenido mucho contacto con &eacute;l, tendr&aacute; dudas sobre cuales son los beneficios. Hasta para los jugadores m&aacute;s experimentados puede ser dif&iacute;cil enumerar todas las cosas buenas que puede deparar. El psiquiatra indio Dr. Shrirang Joshi ha pasado gran parte de su vida estudiando los beneficios que tiene el ajedrez para la salud humana y la vida en general. Nos ha preparado un resumen de los m&aacute;s importantes que ha constatado.<br />
+      </p>
+      <p><img name="" src="leibobitz-vuitton-portada.jpg" width="378" height="251" alt="" /><span class="Estilo6"><img name="" src="concentracion-ajedrez.jpg" width="361" height="252" alt="" /></span></p>
+    </div>
+    <div class="story">
+      <table width="100%" cellpadding="0" cellspacing="0" summary="">
+        <tr valign="top">
+          <td height="139" class="storyLeft Estilo10">
+            <p align="center"><a href="https://www.youtube.com/watch?v=CXTyizPJIXk&amp;ab_channel=LuisFern%C3%A1ndezSiles">Datos sobre el Ajedrez </a></p>          
+            <ol class="Estilo9">
+              <li>
+                <div align="left">Se estima que en todo el mundo hay alrededor de&nbsp;500 millones&nbsp;de personas que juegan al ajedrez, lo que le convierte en el juego m&aacute;s popular.</div>
+              </li>
+              <li>
+                <div align="left">La primera versi&oacute;n del ajedrez era muy parecida a la que conocemos ahora. Surgi&oacute; en&nbsp;Persia&nbsp;en torno al a&ntilde;o&nbsp;600 a.C.&nbsp;y consist&iacute;a en un tablero con 64 campos y 16 piezas en cada lado: soldados, caballos, elefantes, carros, un consejero y el Shah (el rey). El juego terminaba cuando nadie pod&iacute;a ganar (tablas) o cuando todas las piezas (excepto el Shah) eran capturadas.</div>
+              </li>
+              <li>
+                <div align="left">De hecho, la palabra &lsquo;Jaque mate&rsquo; en Ajedrez proviene de la frase persa &lsquo;Shah Mat&rsquo;, que significa &lsquo;el Rey ha muerto&lsquo;.</div>
+              </li>
+              <li>
+                <div align="left">Seg&uacute;n la Fundaci&oacute;n Estadounidense para el Ajedrez, hay 169.518.829.100.544.000.000.000.000.000 formas de jugar los&nbsp;primeros 10 movimientos&nbsp;de una partida de ajedrez</div>
+              </li>
+              <li>
+                <div align="left">El primer torneo no profesional que enfrent&oacute; a distintos jugadores de ajedrez tuvo lugar en&nbsp;Madrid en el a&ntilde;o 1575, durante el reinado de Felipe II. Los italianos&nbsp;Leonardo da Cutri y Paolo Boi compitieron contra los espa&ntilde;oles Ruy L&oacute;pez y Alfonso Cer&oacute;n. La victoria cay&oacute; finalmente del lado de los italianos.</div>
+              </li>
+              <li>
+                <div align="left">En cuanto al primer&nbsp;torneo profesional, este tuvo lugar en 1871 y, desde entonces, se celebran torneos y campeonatos a lo largo de todo el mundo, lo que permite que haya&nbsp;profesionales que se ganan la vida con ellos. Incluso hay muchos partidarios de que&nbsp;el ajedrez sea&nbsp;deporte ol&iacute;mpico, aunque todav&iacute;a no se ha logrado.</div>
+              </li>
+              <li>
+                <div align="left">Un sacerdote invent&oacute; el&nbsp;tablero de ajedrez plegable. La iglesia no permit&iacute;a que se jugase al ajedrez, pero al hacer un tablero plegable, permit&iacute;a colocarlo en una estanter&iacute;a y que parecieran&nbsp;dos libros.</div>
+              </li>
+              <li>
+                <div align="left">El inventor h&uacute;ngaro Wolfgang von Kempelen desarroll&oacute; en 1770 una m&aacute;quina llamada&nbsp;Turk, que&nbsp;pod&iacute;a enfrentarse a un oponente humano.&nbsp;Entre las personas derrotadas por la m&aacute;quina estaban famosos como Napole&oacute;n Bonaparte o&nbsp;Benjam&iacute;n Franklin. Sin embargo todo result&oacute; un enga&ntilde;o, ya que&nbsp;un ajedrecista se ocultaba dentro de la m&aacute;quina&nbsp;y mov&iacute;a las piezas con imanes.</div>
+              </li>
+              <li>
+                <div align="left">Lo que no result&oacute; un enga&ntilde;o fue la victoria de la m&aacute;quina&nbsp;Deep Blue contra&nbsp;el campe&oacute;n del mundo, Garry Kasparov&nbsp;en 1997. Jugaron dos partidas&nbsp;con 6 juegos cada una, siendo el ruso el vencedor de la primera, mientras que en el segundo, el ordenador fue quien se llev&oacute; la victoria.</div>
+              </li>
+              <li>
+                <div align="left">Hoy en d&iacute;a los&nbsp;programas inform&aacute;ticos&nbsp;han avanzado mucho y superan claramente&nbsp;a Deep Blue. El campe&oacute;n mundial humano Magnus Carlsen tiene una calificaci&oacute;n de 2877, mientras que el mejor programa de computadora tiene una calificaci&oacute;n de 3290.</div>
+              </li>
+              <li>
+                <div align="left">El&nbsp;dise&ntilde;o de las piezas&nbsp;del ajedrez tal y como las conocemos hoy en d&iacute;a es obra del ingl&eacute;s Howard Staunton, un apasionado del juego que cre&oacute; un dise&ntilde;o muy atractivo y reconocible. Las piezas Staunton son las piezas de ajedrez oficiales en todo el mundo.</div>
+              </li>
+              <li>
+                <div align="left">Muchos expertos afirman que el ajedrez es un juego perfecto para&nbsp;mejorar la memoria&nbsp;y una pr&aacute;ctica muy recomendable para prevenir el alzh&eacute;imer.</div>
+              </li>
+            </ol>          </td>
+          <td>
+            <p>&nbsp;</p>          </td>
+        </tr>
+        <tr valign="top">
+          <td class="storyLeft">
+            <p align="center"><span class="Estilo12"><img src="las-mujeres-y-el-ajedrez.jpg" width="395" height="219" alt="" /></span></p>          </td>
+          <td>
+            <p>&nbsp;</p>          </td>
+        </tr>
+        <tr valign="top">
+          <td class="storyLeft">
+            <p align="center"><br />
+                <a href="https://users.dcc.uchile.cl/~jegger/ajedrez/HistoriaAjedrez.htm#:~:text=El%20ajedrez%20tiene%20su%20origen,extendi%C3%A9ndose%20posteriormente%20por%20toda%20Asia." class="Estilo7"><strong>El Origen del Ajedrez </strong></a><br />
+            </p>          
+            <div>
+              <p class="Estilo6">El ajedrez tiene su origen en la India, m&aacute;s concretamente en el Valle del Indo, y data del siglo VI d.C. Originalmente conocido como Chaturanga, o juego del ej&eacute;rcito, se difundi&oacute; r&aacute;pidamente por las rutas comerciales, lleg&oacute; a Persia, y desde all&iacute; al Imperio bizantino, extendi&eacute;ndose posteriormente por toda Asia. La mayor&iacute;a de los historiadores coinciden en ubicar el origen del ajedrez en la India en el siglo VII. El mundo &aacute;rabe, adopt&oacute; el ajedrez con un entusiasmo sin igual: estudiaron y analizaron en profundidad los mecanismos del juego, escribieron numerosos tratados sobre ajedrez y esarrollaron el sistema de notaci&oacute;n algebraica.<br />
+                El juego lleg&oacute; a Europa entre los a&ntilde;os 700 y 900, a trav&eacute;s de la conquista de Espa&ntilde;a por el Islam, aunque tambi&eacute;n lo practicaban los vikingos y los Cruzados que regresaban de Tierra Santa. En las excavaciones de una sepultura vikinga hallada en la costa sur de Breta&ntilde;a se encontr&oacute; un juego de ajedrez, y en la regi&oacute;n francesa de los Vosgos se descubrieron unas piezas del siglo X, de origen escandinavo, que respond&iacute;an al modelo &aacute;rabe tradicional. Durante la edad media Espa&ntilde;a e Italia eran los pa&iacute;ses donde m&aacute;s se practicaba. Se jugaba de acuerdo con las normas &aacute;rabes (descritas en diversos tratados de los que fue traductor y adaptador Alfonso X el Sabio), seg&uacute;n las cuales la reina y el alfil son piezas relativamente d&eacute;biles, que s&oacute;lo pueden avanzar de casilla en casilla.</p>
+              <p class="Estilo11"><strong>La era moderna del Ajedrez, sin embargo, puede ser ubicada en el siglo XV, donde las piezas obtuvieron la forma que tienen actualmente. El primer analista serio del juego fue el espa&ntilde;ol Ruy L&oacute;pez de Segura (Siglo XVI), quien en 1561 describi&oacute; las reglas que a&uacute;n se usan. El primer reglamento impreso fue publicado por Francois Philidor con el titulo Analyse du jue des echecs (1749), que fue traducido a muchos lenguajes y ayudo a la difusi&oacute;n del juego.</strong></p>
+              <p class="Estilo11"><strong>Durante los siglos XVI y XVII el ajedrez experiment&oacute; un importante cambio, y la reina se convirti&oacute; en la pieza m&aacute;s poderosa, en cuanto a su movimiento se refiere, del tablero. Fue entonces cuando se permiti&oacute; a los peones avanzar dos casillas en su primer movimiento y se introdujeron la regla conocida como en passant ('al paso'), que permite capturar el pe&oacute;n que sigue su marcha y no come la ficha que se le ha ofrecido por una determinada estrategia, y el revolucionario concepto del enroque. Los jugadores italianos comenzaron a dominar el juego, arrebat&aacute;ndoles la supremac&iacute;a a los espa&ntilde;oles. Los italianos, a su vez, fueron desbancados por los franceses y los ingleses durante los siglo XVIII y XIX cuando el ajedrez, que hab&iacute;a sido hasta entonces el juego predilecto de la nobleza y la aristocracia, pas&oacute; a los caf&eacute;s y las universidades. El nivel del juego mejor&oacute;<br />
+                entonces de manera notable. Comenzaron a organizarse partidas y torneos con mayor frecuencia, y los jugadores m&aacute;s destacados crearon sus propias escuelas.</strong></p>
+            </div>
+            <div>            <span class="Estilo12">PAGINA HECHA POR: GUSTAVO, EDER Y CARLOS EDUARDO. <br />
+            </span>
+            <p align="center"><br />  
+              <br />
+            </p></td>
+          <td>
+            <p>&nbsp;</p>          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!--end content -->
+  <div class="Estilo1" id="siteInfo"></div>
+</div>
+<!--end pagecell1-->
+<br />
+<script type="text/javascript">
+    <!--
+      var menuitem1 = new menu(7,1,"hidden");
+			var menuitem2 = new menu(7,2,"hidden");
+			var menuitem3 = new menu(7,3,"hidden");
+			var menuitem4 = new menu(7,4,"hidden");
+			var menuitem5 = new menu(7,5,"hidden");
+			var menuitem6 = new menu(7,6,"hidden");
+			var menuitem7 = new menu(7,7,"hidden");
+    // -->
+    </script>
+</body>
+</html>
